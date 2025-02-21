@@ -63,22 +63,6 @@ public class SortingUtility {
      * 
      * @param data[]: the array to be sorted
      * @param n: the number of elements in the array
-     */
-    public static boolean isNearSorted(int[] data, int n) {
-        for (int i = 0; i < n; i++) {
-            if (Math.abs(data[i] - i) > 10) {
-                return false;
-            }
-        }
-
-        return true;
-    }
-
-    /*
-     * Helper method for checking if the array is near-sorted
-     * 
-     * @param data[]: the array to be sorted
-     * @param n: the number of elements in the array
      * @param threshold: the percentage of elements that can be out of order
      */
     public static boolean isNearSorted(int[] data, int n, double threshold) {
