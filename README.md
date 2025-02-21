@@ -1,6 +1,6 @@
 # Sorting Shenanigans
 
-Welcome to the Sorting Library!
+Welcome to Sorting Shenanigans!
 
 This project is a collection of various sorting algorithms implemented in Java. It is designed to help users understand and utilize sorting algorithms efficiently.
 
